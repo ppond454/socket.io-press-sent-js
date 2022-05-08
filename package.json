@@ -1,0 +1,15 @@
+{
+    "name": "servePess-send",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "esm": "^3.2.25",
+        "nodemon": "^2.0.16",
+        "socket.io": "^4.5.0"
+    },
+    "scripts": {
+        "start": "nodemon -r esm src/index.js"
+    }
+}
