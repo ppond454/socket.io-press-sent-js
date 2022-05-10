@@ -1,0 +1,1 @@
+web:nodemon -r esm src/index.js
